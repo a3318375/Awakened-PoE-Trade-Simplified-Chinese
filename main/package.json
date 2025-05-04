@@ -1,0 +1,40 @@
+{
+  "name": "Awakened-PoE-Trade-Simplified-Chinese",
+  "version": "3.25.107",
+  "private": true,
+  "scripts": {
+    "dev": "node build/script.mjs",
+    "build": "tsc --noEmit && node build/script.mjs --prod",
+    "package": "electron-builder build"
+  },
+  "author": {
+    "name": "Alexander Drozdov and HongChen and DonkiChen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Traveller-hongchen/Awakened-PoE-Trade-Simplified-Chinese.git"
+  },
+  "main": "dist/main.js",
+  "dependencies": {
+    "electron-overlay-window": "3.3.0",
+    "uiohook-napi": "1.5.x"
+  },
+  "devDependencies": {
+    "@types/ini": "^4.1.0",
+    "@types/node": "20.x.x",
+    "@types/ws": "^8.5.3",
+    "@wokwi/bmp-ts": "^3.0.0",
+    "comlink": "^4.3.1",
+    "electron": "31.3.1",
+    "electron-builder": "24.13.3",
+    "electron-updater": "^6.1.0",
+    "esbuild": "^0.23.0",
+    "ini": "^4.0.0",
+    "typescript": "5.5.x",
+    "ws": "^8.16.0"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
